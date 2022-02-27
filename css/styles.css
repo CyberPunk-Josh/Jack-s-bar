@@ -1,0 +1,81 @@
+body{
+    position: relative;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+/* navegacion */
+.navegacion{
+    background-color: #11ffee00; 
+}
+
+
+.nombre{
+    position: static;
+}
+
+.logo{
+    width: 12rem;
+    height: auto;
+}
+
+.aw-vertical-align{
+    height: 100vh;
+}
+
+.navegacion{
+    background: rgba(0, 0, 0, 0.199);
+}
+
+
+@media(min-width:360px){
+    .navegacion{
+        background-color: black;
+    }
+    .nav-item a{
+        color: #ffffff;
+    }
+}
+
+@media(min-width:760px){
+    .navegacion{
+        background: rgba(0, 0, 0, 0.199);
+    }
+    .nav-item a{
+        color: #000000;
+    }
+}
+
+.top-nav-collapse{
+    background: rgba(0, 0, 0, 0.74) !important;
+}
+
+.top-nav-collapse a{
+    color: #ffffff;
+}
+/* termina navegacion */
+
+/* hero */
+.fondo{
+    background-image: url('/images/hero.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+/* termina hero */
+
+/* nosotros */
+.text{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.historia{
+    text-decoration: underline;
+}
+/* termina nosotros */
