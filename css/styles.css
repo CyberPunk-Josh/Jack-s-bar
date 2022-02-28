@@ -67,6 +67,12 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+
+.jacktitle{
+    padding: 30px 45px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
 /* termina hero */
 
 /* nosotros */
@@ -79,3 +85,19 @@ body{
     text-decoration: underline;
 }
 /* termina nosotros */
+/* menu */
+.menu{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+/* termina menu */
+/* banner */
+.banner-bar{
+    background-image: url("/images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 35rem;
+}
+/* termina banner */
